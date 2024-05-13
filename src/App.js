@@ -1,10 +1,13 @@
 import "./App.css";
+import Heart from "./components/Heart";
 import MainPage from "./pages/mainPage";
 
 function App() {
   return (
     <>
-      <MainPage></MainPage>
+      <MainPage>
+        <Heart />
+      </MainPage>
     </>
   );
 }
