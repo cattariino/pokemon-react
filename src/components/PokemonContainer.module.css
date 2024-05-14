@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 10em;
+}
+
+@media (min-width: 801px) and (max-width: 1725px) {
+  .container {
+    gap: 6em;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .container {
+    gap: 0em;
+    flex-direction: column;
+  }
+}

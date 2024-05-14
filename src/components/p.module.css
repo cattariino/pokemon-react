@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/pokemon-solid");
+
+:root {
+  --color-pokemon-yellow: #ffcc08;
+  --font-pokemon: "Pokemon Solid", sans-serif;
+  --color-pokemon-blue: #3a5ca8;
+}
+
+.pokeomon {
+  color: var(--color-pokemon-yellow);
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: var(--color-pokemon-blue);
+  font-size: 100px;
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .pokeomon {
+    font-size: 50px;
+    -webkit-text-stroke-width: 3.5px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .pokeomon {
+    font-size: 60px;
+    -webkit-text-stroke-width: 4px;
+  }
+}

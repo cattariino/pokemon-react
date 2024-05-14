@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+:root {
+  --font-pixel: "Pixelify Sans", sans-serif;
+  --color-pokemon-yellow: #ffcc08;
+}
+
+.font {
+  color: var(--color-pokemon-yellow);
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: black;
+  font-size: 50px;
+  font-family: var(--font-pixel);
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .font {
+    -webkit-text-stroke-width: 0.6px;
+    font-size: 40px;
+    text-align: center;
+  }
+}
