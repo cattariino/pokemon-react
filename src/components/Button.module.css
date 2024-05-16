@@ -1,0 +1,16 @@
+:root {
+  --color-pokemon-yellow: #ffcc08;
+  --color-pokemon-blue: #3a5ca8;
+  --font-pixel: "Pixelify Sans", sans-serif;
+}
+
+button {
+  font-family: var(--font-pixel);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  padding: 0.5em;
+  border-radius: 9px;
+  font-size: 20px;
+  background-color: var(--color-pokemon-yellow);
+  border-color: var(--color-pokemon-blue);
+}

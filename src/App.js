@@ -9,6 +9,8 @@ import PokemonComponent from "./components/GetPokemonImage";
 import PokemonCongtainer from "./components/PokemonContainer";
 import TextContainer from "./components/TextContainer";
 import NamePokemon from "./components/NamePokemon";
+import Button from "./components/Button";
+import ContainerButtons from "./components/ContainerButtons";
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
             <NamePokemon />
           </TextContainer>
         </PokemonCongtainer>
+        <ContainerButtons></ContainerButtons>
       </MainPage>
     </>
   );

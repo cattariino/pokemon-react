@@ -16,6 +16,7 @@
   font-family: var(--font-pokemon);
   flex-direction: column;
   gap: 4em;
+  overflow: hidden;
   background-image: url(../desing-tools/Copia\ de\ WhatsApp\ Image\ 2024-04-04\ at\ 22.40.52.jpeg);
 }
 
